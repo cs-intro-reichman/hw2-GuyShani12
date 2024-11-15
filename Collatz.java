@@ -6,7 +6,7 @@ public class Collatz {
 		int loop = 1;
 
 		if (s.equals("V") || s.equals("v")){
-		for (int i = 0; i < seed; i++)
+		for (int i = 1; i <= seed; i++)
 		{
             int count = 1;
 			int num = i;
