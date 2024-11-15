@@ -5,7 +5,7 @@ public class Collatz {
 		String s = args[1];
 		int loop = 1;
 
-		if (s.equals("V")){
+		if (s.equals("V") || s.equals("v")){
 		for (int i = 0; i < seed; i++)
 		{
             int count = 1;
