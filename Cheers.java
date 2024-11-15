@@ -17,6 +17,7 @@ public class Cheers {
                         count++;
                 }
 
+                System.out.println("What does that spell?");
                 for (int i = 0; i < n; i++){
                         System.out.println(word + "!!!");
                 }
