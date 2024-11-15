@@ -5,14 +5,14 @@ public class Collatz {
 		String s = args[1];
 
 		if (s.equals("V")){
-		for (int i = 1; i <= seed; i++)
+		for (int i = 1; i < seed; i++)
 		{
             int count = 1;
 			int num = i;
 			boolean b = false;
 
 			System.out.print(i + " ");
-			
+
 			while (b == false)
 			{
 				if (num % 2 == 0){
