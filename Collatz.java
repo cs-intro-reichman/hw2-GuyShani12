@@ -6,7 +6,7 @@ public class Collatz {
 
 		for (int i = 1; i <= seed; i++)
 		{
-            int count =1;
+            int count = 1;
 			int num = i;
 			boolean b = false;
 

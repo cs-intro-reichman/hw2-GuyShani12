@@ -18,6 +18,6 @@ public class CalcPi {
 			    y = y + 4; 
 			}
 		}
-		System.out.print("pi approximated: " + pi * 4);
+		System.out.print("pi, approximated: " + pi * 4);
 	}
 }
