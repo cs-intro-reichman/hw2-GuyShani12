@@ -3,15 +3,16 @@ public class Collatz {
 	public static void main(String args[]) {
 	    int seed = Integer.parseInt(args[0]);
 		String s = args[1];
+		int loop = 1;
 
 		if (s.equals("V")){
-		for (int i = 1; i < seed; i++)
+		for (int i = 0; i < seed; i++)
 		{
             int count = 1;
 			int num = i;
 			boolean b = false;
 
-			System.out.print(i + " ");
+			System.out.print(loop + " ");
 
 			while (b == false)
 			{
@@ -29,6 +30,7 @@ public class Collatz {
 				count++;
 			}
 			System.out.println("(" + count + ")");
+			loop++;
 		}
 	    }
 		System.out.print("Every one of the first " + seed + " hailstone sequences reached 1.");
