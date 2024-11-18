@@ -11,9 +11,9 @@ public class Cheers {
                         char c = args[0].charAt(count);
                         c = Character.toUpperCase(c);
 
-                        if (args[0].charAt(count) == 'O' || args[0].charAt(count) == 'U' || args[0].charAt(count) == 'A' || args[0].charAt(count) == 'E' 
-                        || args[0].charAt(count) == 'I' || args[0].charAt(count) == 'F' || args[0].charAt(count) == 'X' || args[0].charAt(count) == 'H' 
-                        || args[0].charAt(count) == 'L' || args[0].charAt(count) == 'M' || args[0].charAt(count) == 'N'|| args[0].charAt(count) == 'R'){
+                        if (args[0].charAt(count) == 'O' || args[0].charAt(count) == 'U' || args[0].charAt(count) == 'A' || args[0].charAt(count) == 'E' ||
+                         args[0].charAt(count) == 'I' || args[0].charAt(count) == 'F' || args[0].charAt(count) == 'X' || args[0].charAt(count) == 'H' ||
+                         args[0].charAt(count) == 'L' || args[0].charAt(count) == 'M' || args[0].charAt(count) == 'N'|| args[0].charAt(count) == 'R'){
                         System.out.println("Give Me an " + c + ": " + c + "!");
                         }
                         else {
