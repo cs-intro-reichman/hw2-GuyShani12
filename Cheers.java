@@ -13,10 +13,10 @@ public class Cheers {
 
                         if (c == 'O' || c == 'U' || c == 'A' || c == 'E' || c == 'I' || c == 'F' || c == 'X' 
                         || c == 'H' || c == 'L' || c == 'M' || c == 'N'|| c == 'R'){
-                                System.out.println("Give Me an " + c + ": " + c + "!");
+                                System.out.println("Give me an " + c + ": " + c + "!");
                         }
                         else {
-                                System.out.println("Give Me a  " + c + ": " + c + "!");
+                                System.out.println("Give me a  " + c + ": " + c + "!");
                         }
                          word2 = word2 + c;
                         count++;
