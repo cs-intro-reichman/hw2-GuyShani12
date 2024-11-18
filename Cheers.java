@@ -8,13 +8,16 @@ public class Cheers {
 
                 while (count < word.length())
                 {
+                        char c = args[0].charAt(count);
+                        c = Character.toUpperCase(c);
+
                         if (args[0].charAt(count) == 'O' || args[0].charAt(count) == 'U' || args[0].charAt(count) == 'A' || args[0].charAt(count) == 'E' 
                         || args[0].charAt(count) == 'I' || args[0].charAt(count) == 'F' || args[0].charAt(count) == 'X' || args[0].charAt(count) == 'H' 
                         || args[0].charAt(count) == 'L' || args[0].charAt(count) == 'M' || args[0].charAt(count) == 'N'|| args[0].charAt(count) == 'R'){
-                        System.out.println("Give Me an " + args[0].charAt(count) + ": " + args[0].charAt(count) + "!");
+                        System.out.println("Give Me an " + c + ": " + c + "!");
                         }
                         else {
-                                System.out.println("Give Me a  " + args[0].charAt(count) + ": " + args[0].charAt(count) + "!");
+                                System.out.println("Give Me a  " + c + ": " + c + "!");
                         }
                         
                         count++;
