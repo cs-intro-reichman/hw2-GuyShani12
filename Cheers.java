@@ -4,6 +4,7 @@ public class Cheers {
                 String word = args[0];
                 int n = Integer.parseInt(args[1]);
                 int count = 0;
+                String word2 = "";
 
                 while (count < word.length())
                 {
@@ -17,13 +18,13 @@ public class Cheers {
                         else {
                                 System.out.println("Give Me a  " + c + ": " + c + "!");
                         }
-                        
+                         word2 = word2 + c;
                         count++;
                 }
 
                 System.out.println("What does that spell?");
                 for (int i = 0; i < n; i++){
-                        System.out.println(word + "!!!");
+                        System.out.println(word2 + "!!!");
                 }
 
         }
